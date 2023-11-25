@@ -1,10 +1,9 @@
 import { useState } from "react";
 
-import Button from "../components/Button";
-import { arrowRight } from "../assets/icons";
+import { Button, ShoeCard } from "../components";
 import { statistics, shoes } from "../constants";
+import { arrowRight } from "../assets/icons";
 import { bigShoe1 } from "../assets/images";
-import ShoeCard from "../components/ShoeCard";
 
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
